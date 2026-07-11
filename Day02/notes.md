@@ -252,3 +252,48 @@ Integer vs Float: Integers store whole numbers; floats store decimal numbers.
 type(): Identifies the data type of a value or variable.
 Type Conversion: The process of changing data from one type to another, either automatically (implicit) or manually (explicit).
 Why int(input())/float(input()): Because input() returns a string, numeric input must be converted before mathematical operations can be performed.
+
+
+
+
+
+
+
+
+
+# Day 02 - Variables & Data Types
+
+## Topics Covered
+- Variables
+- Data Types
+- type()
+- Type Conversion
+- Multiple Assignment
+- Constants
+
+## Key Learnings
+- A variable is a name that refers to a value in memory.
+- Python is dynamically typed.
+- Use snake_case for variable names.
+- Avoid using built-in names like sum or list.
+
+## Common Mistakes
+- Using reserved keywords as variable names.
+- Forgetting type conversion with input().
+
+## Interview Questions
+1. What is dynamic typing?
+2. Difference between int and float?
+3. Why do we use type()?
+
+## Doubts
+- (Write anything you found confusing.)  
+
+Key Takeaways
+A Python variable does not store the actual value; it stores a reference to an object.
+The actual data lives inside objects allocated in memory (RAM).
+Multiple variables can refer to the same object.
+For immutable objects (like integers and strings), "changing" a value creates a new object, leaving other references unchanged.
+For mutable objects (like lists, dictionaries, and sets), modifying the object affects all variables that reference it.
+Reassigning a variable changes which object it refers to; it does not modify the original object.
+Python automatically frees objects that are no longer referenced using reference counting and a garbage collector.
